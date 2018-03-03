@@ -265,9 +265,9 @@ const char* const g_strings[StrId_Max][16] =
         STR_ES("Abrir"),
         STR_DE("Öffnen"),
         STR_FR("Ouvrir"),
-        STR_IT("Aperto"),
+        STR_IT("Aprire"),
         STR_JP("開いた"),
-        STR_PT("Aberto"),
+        STR_PT("Abrir"),
         STR_NL("Open"),
         STR_KO("열다"),
         STR_RU("открыто"),
@@ -281,6 +281,14 @@ const char* const g_strings[StrId_Max][16] =
         STR_ES("Volver"),
         STR_DE("Zurück"),
         STR_FR("Retour"),
+        STR_IT("Ritorno"),
+        STR_JP("戻る"),		//Not sure about this one nor the ones after STR_PT
+        STR_PT("Regressar"),
+        STR_NL("Teruggaan"),
+        STR_KO("돌아가기"),
+        STR_RU("возвращаться"),
+        STR_ZH("回去"),
+        STR_TW("回去"),
     },
 
     /*[StrId_Reboot] =
