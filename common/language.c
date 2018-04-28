@@ -43,7 +43,7 @@ const char* const g_strings[StrId_Max][16] =
         STR_KO("로딩중…"),
         STR_RU("загрузка…"),
         STR_ZH("加载中…"),
-        STR_TW("加載中…"),
+        STR_TW("下載中…"),
     },
 
     [StrId_Directory] =
@@ -91,7 +91,7 @@ const char* const g_strings[StrId_Max][16] =
         STR_KO("작자미상"),
         STR_RU("неизвестный автор"),
         STR_ZH("未知作者"),
-        STR_TW("未知作者"),
+        STR_TW("作者不詳"),
     },
 
     [StrId_IOError] =
@@ -256,7 +256,7 @@ const char* const g_strings[StrId_Max][16] =
         STR_KO("쏘다"),
         STR_RU("запуск"),
         STR_ZH("发射"),
-        STR_TW("发射"),
+        STR_TW("啟動"),
     },
 
     [StrId_Actions_Open] =
@@ -272,7 +272,7 @@ const char* const g_strings[StrId_Max][16] =
         STR_KO("열다"),
         STR_RU("открыто"),
         STR_ZH("打开"),
-        STR_TW("打开"),
+        STR_TW("開啟"),
     },
     
     [StrId_Actions_Back] =
@@ -288,7 +288,7 @@ const char* const g_strings[StrId_Max][16] =
         STR_KO("돌아가기"),
         STR_RU("возвращаться"),
         STR_ZH("回去"),
-        STR_TW("回去"),
+        STR_TW("返回"),
     },
 
     /*[StrId_Reboot] =
@@ -363,7 +363,7 @@ const char* const g_strings[StrId_Max][16] =
         STR_TW(
             "無法返回至主機的 \xEE\x81\xB3HOME 選單。\n"
             "您需要重新啓動您的 3DS 設備。\n\n"
-            "  \xEE\x80\x80 重啓設備\n"
+            "  \xEE\x80\x80 重新啟動\n"
             "  \xEE\x80\x81 取消操作"
         ),
     },*/
@@ -440,7 +440,7 @@ const char* const g_strings[StrId_Max][16] =
             "您即將返回到主機的 \xEE\x81\xB3HOME 選單。\n\n"
             "  \xEE\x80\x80 確認返回\n"
             "  \xEE\x80\x81 取消操作\n"
-            "  \xEE\x80\x82 重啓設備"
+            "  \xEE\x80\x82 重新啟動"
         ),
     },*/
 
@@ -457,7 +457,7 @@ const char* const g_strings[StrId_Max][16] =
         STR_KO("타이틀 선택기"),
         STR_RU("Селектор заголовков"),
         STR_ZH("应用启动器"),
-        STR_TW("自製程式啓動器"),
+        STR_TW("應用程式執行器"),
     },
 
     [StrId_ErrorReadingTitleMetadata] =
@@ -476,7 +476,7 @@ const char* const g_strings[StrId_Max][16] =
         STR_KO("타이틀 메타데이터를 읽는데 실패하였습니다.\n%08lX%08lX@%d"),
         STR_RU("Ошибка чтения метаданных заголовка\n.%08lX%08lX@%d"),
         STR_ZH("读取软件相关信息时发生错误：\n%08lX%08lX@%d"),
-        STR_TW("讀取軟體相關數據時發生錯誤：\n%08lX%08lX@%d"),
+        STR_TW("讀取軟體相關資料時發生錯誤：\n%08lX%08lX@%d"),
     },
 
     [StrId_NoTitlesFound] =
@@ -553,7 +553,7 @@ const char* const g_strings[StrId_Max][16] =
             "  \xEE\x80\x81 取消"
         ),
         STR_TW(
-            "請選擇一個目標軟體。\n\n"
+            "請選擇一個應用程式。\n\n"
             "  \xEE\x80\x80 確認\n"
             "  \xEE\x80\x81 取消"
         ),
@@ -617,9 +617,9 @@ const char* const g_strings[StrId_Max][16] =
             "请使用其它的漏洞来启动「自制软件启动器」。"
         ),
         STR_TW(
-            "您所利用漏洞開啓的「自製軟體啓動器」\n"
+            "您所利用套件開啓的「應用程式執行器」\n"
             "無法在當前選中的軟體啓動自製軟件。\n"
-            "請利用其它漏洞來啓動「自製軟體啓動器」。"
+            "請利用其它套件來啓動「應用程式執行器」。"
         ),
     },
 
